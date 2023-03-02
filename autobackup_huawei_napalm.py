@@ -9,8 +9,8 @@ file_directory = "./Backup/"
 file = open("device_list.txt","r") #Device list 
 host_list = file.read().split()
 
-user = 'mandiri' #Specify user login here
-user_pswd = 'P@ssw0rd' #Specify user password here
+user = '' #Specify user login here
+user_pswd = '' #Specify user password here
 ssh_port = 22 #Specify ssh port here
 running_config = ""
 
